@@ -8,3 +8,12 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_PASSWORD: pass123
+
+
+
+      ## for ms sql server
+      ## image: mcr.microsoft.com/mssql/server:2019-lastest
+      ## port: 1433
+      ## env:
+        ## ACCEPT_EULA=Y
+        ## SA_PASSWORD=AKSDNAKDAKS
